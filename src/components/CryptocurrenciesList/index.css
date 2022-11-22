@@ -32,7 +32,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
-  padding-left: 30px;
+  padding-left: 60px;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -50,6 +50,7 @@
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
+  /* padding-left: 15px; */
 }
 
 .ul-list-container {
