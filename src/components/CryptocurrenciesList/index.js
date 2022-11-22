@@ -56,7 +56,7 @@ class CryptocurrenciesList extends Component {
                   <p className="menu-item">EURO</p>
                 </div>
               </div>
-              <ul>
+              <ul className="ul-list-container">
                 {currencyData.map(each => (
                   <CryptocurrencyItem details={each} key={each.id} />
                 ))}
