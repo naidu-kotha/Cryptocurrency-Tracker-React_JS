@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.bg {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    padding: 40px;
+  }
+}

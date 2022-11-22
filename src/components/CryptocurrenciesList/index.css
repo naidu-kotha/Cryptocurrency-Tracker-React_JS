@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.currencies-container {
+  display: flex;
+  flex-direction: column;
+  border: #00e7ff 5px solid;
+  width: 90%;
+  border-radius: 12px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+  font: 40px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.menu-bar {
+  display: flex;
+  background-color: #092e33;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cost-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.menu-item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-item {
+    font-size: 14px;
+  }
+
+  .cost-container {
+    width: 50%;
+  }
+
+  .menu-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
